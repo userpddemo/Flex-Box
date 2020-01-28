@@ -1,4 +1,4 @@
-function setElementId(var id){
+function setElementId(id){
     var elementValue = document.getElementById(id).href
     alert(id);
 }
