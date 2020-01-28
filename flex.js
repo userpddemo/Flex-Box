@@ -1,5 +1,6 @@
+var elementValue;
 function setElementId(id){
-    var elementValue = document.getElementById(id).href
+    elementValue = document.getElementById(id).href
     alert(id);
 }
 
