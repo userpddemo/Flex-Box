@@ -1,5 +1,6 @@
 function setElementId(var id){
     var elementValue = document.getElementById(id).href
+    alert(id);
 }
 
 function viewCode(){
@@ -7,7 +8,8 @@ function viewCode(){
     xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("view_code").text =
-      this.responseText;
+      this.responseText;  
+      alert(responseText);
     }
   };
   xhttp.open("GET", elementValue, true);
